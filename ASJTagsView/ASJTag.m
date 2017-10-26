@@ -46,7 +46,7 @@
 {
   NSString *resourcesBundlePath = [self.tagsBundle pathForResource:@"Resources" ofType:@"bundle"];
   NSBundle *resourcesBundle = [NSBundle bundleWithPath:resourcesBundlePath];
-  return [UIImage imageNamed:@"cross" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+  return [UIImage imageNamed:@"ic_keyboard_arrow_right_white" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
 }
 
 - (NSBundle *)tagsBundle

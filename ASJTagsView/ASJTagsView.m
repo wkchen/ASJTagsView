@@ -228,6 +228,7 @@
 
 - (void)deleteAllTags
 {
+    _tags = @[];
   [self empty];
 }
 
